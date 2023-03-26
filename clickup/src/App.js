@@ -23,10 +23,26 @@ function App() {
           </div>
 
         </div>
+
+        <div className="container-texto-formulario">
+          <p1 className="container-texte1" > Um aplicativo para <br></br>
+            substituir todos eles.<br></br>
+          </p1>
+          <p2 className="container-texte2">
+          Todo o seu trabalho em um só lugar: Tarefas, Documentos,<br></br> Bate-papo, Metas e muito mais.
+          </p2> <br></br>
+        </div>
+
+        <div container-texto-formulario-input>
+          <input type="text" placeholder="Digite o seu e-mail de trabalho"></input>
+        </div>
+
+
+        <div className="container-texto-formulario-botao">
+          <input type="button" value="Iniciar"></input>
+        </div>
+
       </div>
-
-
-      
     </div>
   );
 }
