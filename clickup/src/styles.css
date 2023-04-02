@@ -96,4 +96,94 @@ input{
     font-size: 20px;
 }
 
+.container-texto-formulario-botao-card1,.container-texto-formulario-botao-card2{
+    display: inline-block;
+    padding: 10px;
+}
+
+/* .container-header-app-icone img{
+    width: 63px;
+    height: 18px;
+} */
+img{
+    padding-right: 20px;
+}
+
+.container-header-app-icone{
+    margin: 7px;
+}
+
+
+.container-header-app-icone{
+    margin-top: 60px;
+}
+
+.container-header-app-icone div{
+    display: inline-block;
+    padding: 10px;
+}
+
+.container-header-app-icone1 img{
+    width: 63px;
+    height: 18px;
+}
+
+
+.container-header-app-icone2 img{
+    width: 70px;
+    height: 16px;
+}
+
+.conatainer-texte{
+    margin-block-end: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center
+}
+
+.conatainer-texte h1{
+    font-size: 15px;
+}
+
+.conatainer-texte{
+    margin-top: 50px;
+}
+
+.container-redes-sociais div{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.container-clickup-3_0 div{
+    margin: 20px;
+    margin-right: 40px;
+}
+
+.container-clickup-3_0_body{
+    background-color: black;
+    border: 1px solid transparent;
+    border-radius: 40px;
+
+}
+.container-clickup-3_0_texte2 p{
+    line-height: 1.5; 
+    margin-bottom: 10px;
+    color: white;
+}
+
+.container-clickup-3_0_icone2 img{
+    width: 637px;
+    height: 422px;
+}
+
+.container-clickup-3_0_body, .container-clickup-3_0, .container-clickup-3_0_icone2{
+    display: inline-block;
+}
+
+.container-clickup-3_0_icone2 img{
+    margin-top: 20px;
+}
+
+
 
