@@ -185,5 +185,27 @@ img{
     margin-top: 20px;
 }
 
+.container-clickup-3_0_texto3, .container-clickup-3_0_texto_3_1{
+    padding: 20px;
+    color: white;
+}
 
+.container-clickup-3_0_texto_3_1{
+    border: 1px solid transparent;
+    background-color: #800080;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 10px;
+}
 
+/* .container-header, .container-header-logo, .container-header-logo-svg, .container-header-image{
+    display: inline-block;
+    padding: 40px;
+
+} */
+
+.container-header-image img{
+    width: 637px;
+    height: 422px;
+}

@@ -12,6 +12,7 @@ import netflix from "./images/netflix.svg"
 import t_mobile_logo from "./images/t-mobile_logo.svg"
 import clickup_v3 from "./images/clickup-v3.svg"
 import CU_3_0_Teaser from "./images/CU_3.0_Teaser.png"
+import flecha from "./images/flecha.png"
 
 
 import './styles.css'
@@ -47,7 +48,7 @@ function App() {
           </p2> <br></br>
         </div>
 
-        <div container-texto-formulario-input>
+        <div className=" container-texto-formulario-input">
           <input type="text" placeholder="Digite o seu e-mail de trabalho"></input>
         </div>
 
@@ -61,6 +62,10 @@ function App() {
               <p className="container-texto-formulario-botao-texte2">NO CREDIT CARD.</p>
             </div>
         </div>
+
+        {/* <div className="container-header-image">
+          <img src={CU_3_0_Teaser} alt="CU_3_0_Teaser" />
+        </div> */}
         
         <div className="container-header-app-icone">
 
@@ -137,12 +142,13 @@ function App() {
           </div>
 
           <div className="container-clickup-3_0_texto3">
-            <div container-clickup-3_0_texto_3_1>
+            <div className="container-clickup-3_0_texto_3_1">
               <p>Discover What's comming</p>
             </div>
 
-            <div className="container-clickup-3_0_texto_3_icone" ></div>
-
+            {/* <div className="container-clickup-3_0_texto_3_icone" >
+            <img src={flecha} alt="flecha" />
+            </div> */}
           </div>
 
         </div>
