@@ -12,12 +12,13 @@ import netflix from "./images/netflix.svg"
 import t_mobile_logo from "./images/t-mobile_logo.svg"
 import clickup_v3 from "./images/clickup-v3.svg"
 import CU_3_0_Teaser from "./images/CU_3.0_Teaser.png"
-import flecha from "./images/flecha.png"
 
 
-import './styles.css'
+import './styles/styles.css'
+import Card from "./components/Card"
 function App() {
   return (
+    <>
     <div className="container">
       <div className="container-header">
         <div className="container-header-logo">
@@ -155,6 +156,9 @@ function App() {
 
       </div>
     </div>
+
+    <Card />
+    </>
   );
 }
 

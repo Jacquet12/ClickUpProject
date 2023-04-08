@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.container-secondePage{
+    width: 100%;
+    min-width: 100%;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.container-secondePage, .header li{
+    padding: 15px;
+    display: inline-block;
+    font: bold;
+    font-size: 20px;
+} 
+.container-secondePage, .header{
+    margin: 15px;
+    padding: 10px;
+}
+
+.container-secondePage .container-texte h1{
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.container-secondePage .container-texte{
+    margin: 40px;
+    margin-top: -10px;
+}
+.container-secondePage, .container-secondePage-paragraphe{
+    margin: 40px;
+}
+
+.container-secondePage, .container-secondePage-replace{
+    margin: 40px;
+}
+
+.container-secondePage-button input{
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: fuchsia;
+    border-radius: 7px;
+}
+
+.container-secondePage, .container-secondePage-button input{
+    margin: 40px;
+    margin-top: -10px;
+
+}
+
+.container-secondePage{
+    background-color: bisque;
+    width: 1185px;
+    height: 600px;
+    border-radius: 25px;
+    padding: 5px;
+    margin-top: 50px;
+    margin-left:15px;
+}
+
+/* .container-texte,.container-secondePage-paragraphe,.container-secondePage-replace, .container-secondePage-button,.container-secondePage-imagem img{
+} */
+
+.container-secondePage-imagem img{
+    width: 637px;
+    height: 422px;
+}
+
+.block-container-texte, .container-secondePage-imagem{
+    display: inline-block;
+}
+
+
