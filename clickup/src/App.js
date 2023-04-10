@@ -16,6 +16,7 @@ import CU_3_0_Teaser from "./images/CU_3.0_Teaser.png"
 
 import './styles/styles.css'
 import Card from "./components/Card"
+import SecondeCard from "./components/SecondeCard"
 function App() {
   return (
     <>
@@ -158,6 +159,8 @@ function App() {
     </div>
 
     <Card />
+
+    <SecondeCard />
     </>
   );
 }

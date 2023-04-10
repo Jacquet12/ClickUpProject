@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.secondeCard-header li{
+    padding: 15px;
+    display:inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.secondeCard-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
