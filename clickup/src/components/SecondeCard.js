@@ -9,7 +9,11 @@ function SecondeCard() {
           <li className="secondeCard-headerTexte3">Dashbords</li>
       </div>
 
-      <div className=""></div>
+      <div className="container-secondeCard-texte">
+        <h1 className="container-secondeCard-texte-contain">
+          The world's most<br></br>powerful (and fun)<br></br> Docs.
+        </h1>
+      </div>
 
       
     </div>
