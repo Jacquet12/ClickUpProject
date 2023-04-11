@@ -23,3 +23,39 @@
     justify-content: center;
     font-size: 50px;
 }
+
+.container-secondeCard-texte h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.container-secondeCard-texte h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.container-secondeCard-image img{
+    width: 637px;
+    height: 422px;
+}
+
+.container-secondeCard-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-secondeCard-buttom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 110px;
+}
+
+.container-secondeCard-buttom{
+    
+}
