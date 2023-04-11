@@ -19,9 +19,12 @@ function SecondeCard() {
       <div className="container-secondeCard-image">
         <img src={projects_tasks} alt="projects_tasks" />
       </div>
-      
-      <div className="container-secondeCard-buttom">
-        <input type="button" value="Get Start"></input>
+
+
+      <div className="container-secondeCard-buttom-sessão">
+        <div className="container-secondeCard-buttom">
+          <input type="button" value="Get Start"></input>
+        </div>
       </div>
       
     </div>

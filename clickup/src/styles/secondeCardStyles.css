@@ -56,6 +56,33 @@
     margin-top: 110px;
 }
 
-.container-secondeCard-buttom{
-    
+.container-secondeCard-buttom-sessão{
+    width: 1185px;
+    height: 80px;
+    background-color: gainsboro;
+    margin-left: -5px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
+
+.container-secondeCard{
+    background-color: ghostwhite;
+    width: 1185px;
+    height: 800px;
+    padding: 5px;
+    margin-top: 30px;
+    margin-left:15px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.container-secondeCard-buttom-sessão input:hover{
+    border: none;
+    background-color: #4CAF50; 
+    color: white; 
+    font-size: 16px; 
+    /* background-color: #3e8e41; 
+    color: white;  */
+}
+
+  

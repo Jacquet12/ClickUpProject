@@ -42,9 +42,6 @@
 .container-secondePage-button input{
     width: 150px;
     height: 50px;
-    color: white;
-    background-color: fuchsia;
-    border-radius: 7px;
 }
 
 .container-secondePage, .container-secondePage-button input{
@@ -75,4 +72,8 @@
     display: inline-block;
 }
 
-
+.container-secondePage-button input:hover{
+    color: white;
+    background-color: fuchsia;
+    border-radius: 7px;
+}
