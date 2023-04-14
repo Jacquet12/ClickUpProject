@@ -12,6 +12,7 @@ import netflix from "./images/netflix.svg"
 import t_mobile_logo from "./images/t-mobile_logo.svg"
 import clickup_v3 from "./images/clickup-v3.svg"
 import CU_3_0_Teaser from "./images/CU_3.0_Teaser.png"
+import projects_tasks from "./images/projects_tasks.avif"
 
 
 import './styles/styles.css'
@@ -41,48 +42,54 @@ function App() {
 
         </div>
 
-        <div className="container-texto-formulario">
-          <p1 className="container-texte1" > Um aplicativo para <br></br>
-            substituir todos eles.<br></br>
-          </p1>
-          <p2 className="container-texte2">
-          Todo o seu trabalho em um só lugar: Tarefas, Documentos,<br></br> Bate-papo, Metas e muito mais.
-          </p2> <br></br>
-        </div>
+        <div className="container-texto-formulario-divmaster">
+          <div className="container-texto-formulario">
+            <p1 className="container-texte1" > Um aplicativo para <br></br>
+              substituir todos eles.<br></br>
+            </p1>
+            <p2 className="container-texte2">
+            Todo o seu trabalho em um só lugar: Tarefas, Documentos,<br></br> Bate-papo, Metas e muito mais.
+            </p2> <br></br>
+          </div>
 
-        <div className=" container-texto-formulario-input">
-          <input type="text" placeholder="Digite o seu e-mail de trabalho"></input>
-        </div>
+          <div className=" container-texto-formulario-input">
+            <input type="text" placeholder="Digite o seu e-mail de trabalho"></input>
+          </div>
 
-        <div className="container-texto-formulario-botao">
-            <div className="container-texto-formulario-botao-card1">
-              <input type="button" value="Iniciar"></input>
+          <div className="container-texto-formulario-botao">
+              <div className="container-texto-formulario-botao-card1">
+                <input type="button" value="Iniciar"></input>
+              </div>
+
+              <div className="container-texto-formulario-botao-card2">
+                <p className="container-texto-formulario-botao-texto1" >FREE FOREVER.</p>
+                <p className="container-texto-formulario-botao-texte2">NO CREDIT CARD.</p>
+              </div>
+          </div>
+
+          {/* <div className="container-header-image">
+            <img src={CU_3_0_Teaser} alt="CU_3_0_Teaser" />
+          </div> */}
+          
+          <div className="container-header-app-icone">
+
+            <div className="container-header-app-icone1">
+              <img src={g2crowd} alt="g2crowd" />
             </div>
 
-            <div className="container-texto-formulario-botao-card2">
-              <p className="container-texto-formulario-botao-texto1" >FREE FOREVER.</p>
-              <p className="container-texto-formulario-botao-texte2">NO CREDIT CARD.</p>
+            <div className="container-header-app-icone2">
+            <img src={capterra} alt="captera" />
             </div>
+
+            <div className="container-header-app-icone3">
+            <img src={getapp} alt="getapp" />
+            </div>
+
+          </div>
         </div>
 
-        {/* <div className="container-header-image">
-          <img src={CU_3_0_Teaser} alt="CU_3_0_Teaser" />
-        </div> */}
-        
-        <div className="container-header-app-icone">
-
-          <div className="container-header-app-icone1">
-            <img src={g2crowd} alt="g2crowd" />
-          </div>
-
-          <div className="container-header-app-icone2">
-          <img src={capterra} alt="captera" />
-          </div>
-
-          <div className="container-header-app-icone3">
-          <img src={getapp} alt="getapp" />
-          </div>
-
+        <div className="container-imagem">
+          <img src={projects_tasks} alt="projects_tasks" />
         </div>
 
         <div className="conatainer-texte">

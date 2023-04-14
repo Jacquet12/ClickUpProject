@@ -10,6 +10,7 @@
     display: flex;
     flex-wrap: wrap;
     padding: 15px;
+    align-items: center;
 }
 
 .container-header-logo-svg img{
@@ -206,4 +207,9 @@ img{
 .container-header-image img{
     width: 637px;
     height: 422px;
+}
+
+.container-texto-formulario-divmaster, .container-imagem{
+    display: inline-block;
+    padding: 25px;
 }

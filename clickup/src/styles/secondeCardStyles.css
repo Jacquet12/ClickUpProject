@@ -59,14 +59,14 @@
 .container-secondeCard-buttom-sessão{
     width: 1185px;
     height: 80px;
-    background-color: gainsboro;
+    background-color: rgb(186, 183, 183);
     margin-left: -5px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
 
 .container-secondeCard{
-    background-color: ghostwhite;
+    background-color: gainsboro;
     width: 1185px;
     height: 800px;
     padding: 5px;
@@ -78,8 +78,8 @@
 
 .container-secondeCard-buttom-sessão input:hover{
     border: none;
-    background-color: #4CAF50; 
-    color: white; 
+    background-color: mediumslateblue;
+    color: beige;
     font-size: 16px; 
     /* background-color: #3e8e41; 
     color: white;  */
