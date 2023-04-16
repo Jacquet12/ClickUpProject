@@ -205,11 +205,11 @@ img{
 } */
 
 .container-header-image img{
-    width: 637px;
-    height: 422px;
+    width: 537px;
+    height: 322px;
 }
 
 .container-texto-formulario-divmaster, .container-imagem{
     display: inline-block;
-    padding: 25px;
+    padding: 7px;
 }

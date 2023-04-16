@@ -1,0 +1,115 @@
+.container-ThirdCard{
+    margin: 0 auto;
+    margin-top: 150px;
+    margin-left: 60px;
+}
+
+.container-ThirdCard-texteparagrafo, .container-ThirdCard-secondetexte{
+    margin: 25px;
+}
+
+.container-ThirdCard-secondetexte h1{
+    font-size: 60px;
+}
+.container-ThirdCard-firstexte{
+    color: green;
+}
+
+.container-ThirdCard-thirdtexte p{
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 25px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.container-ThirdCard-bottom-firstgroup input{
+    width: 110px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-ThirdCard-bottom-secondegroup input{
+    width: 110px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-ThirdCard-bottom-thirdgroup input{
+    width: 110px;
+    height: 25px;
+}
+
+.container-ThirdCard-bottom-firstgroup, .container-ThirdCard-bottom-secondegroup{
+    display: inline-block;
+    margin: 25px;
+} 
+
+.container-ThirdCard-bottom-thirdgroup input{
+    margin-left: 25px;
+    margin-top: -12px;
+}
+
+.container-ThirdCard-img img{
+    width: 600px;
+    height: 422px;
+}
+
+.container-ThirdCard-texteparagrafo-master, .container-ThirdCard-img{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.container-ThirdCard-master{
+    background-color: gainsboro;
+    padding: 5px;
+    margin-left:15px;
+    width: 1185px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.container-ThirdCard-lastbutom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-ThirdCard-lastbuttom{
+    background-color: darkgray;
+    width: 1185px;
+    position: absolute;
+    left: 15px;
+}
+
+.container-ThirdCard-lastbutom :hover{
+    color: blueviolet;
+    background-color: chartreuse;
+}
+
+.container-ThirdCard{
+    position: absolute;
+    right: 75px;
+}
+
+.container-ThirdCard-lastbuttom{
+    margin-top: -2px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.container-ThirdCard-bottom-firstgroup :hover{
+    color: blueviolet;
+    background-color: chartreuse;
+}
+
+.container-ThirdCard-bottom-secondegroup :hover{
+    color: blueviolet;
+    background-color: chartreuse;
+}
+
+.container-ThirdCard-bottom-thirdgroup :hover{
+     color: blueviolet;
+    background-color: chartreuse;
+}

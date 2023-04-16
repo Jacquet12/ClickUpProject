@@ -18,6 +18,8 @@ import projects_tasks from "./images/projects_tasks.avif"
 import './styles/styles.css'
 import Card from "./components/Card"
 import SecondeCard from "./components/SecondeCard"
+import ThirdCard from "./components/ThirdCard"
+
 function App() {
   return (
     <>
@@ -168,6 +170,8 @@ function App() {
     <Card />
 
     <SecondeCard />
+
+    <ThirdCard/>
     </>
   );
 }
